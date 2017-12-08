@@ -1,0 +1,442 @@
+@import "partials/variables";
+
+@import "partials/ZoomEffect";
+
+body {
+  margin: 0;
+  background-image: url("../images/BG.png");
+  width: 100%;
+}
+
+#bodyContents {
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+
+/* Getting all the color and font-family out of the way */
+
+#bodyContentsMyWork h1, h1, .TitlesForOther h2, #AboutMe {
+  color: $color_1;
+  font-family: $font_family_1;
+}
+
+#Resume {
+  h1, h2, h3 {
+    color: $color_1;
+    font-family: $font_family_1;
+  }
+}
+
+h1 {
+  font-size: 25px;
+  padding-top: 6%;
+  text-align: center;
+  padding-left: 2vw;
+}
+
+#bodyContentsMyWork h1 {
+  font-size: 36px;
+  padding-top: 30px;
+}
+
+#Logo {
+  float: left;
+  position: relative;
+  display: inline-block;
+  padding: 20px 0px 2% 18%;
+  img {
+    width: 20vw;
+  }
+}
+
+nav {
+  display: inline-block;
+  padding-top: 29px;
+  padding-left: 4%;
+  a {
+    &:link {
+      color: white;
+      text-decoration: none;
+    }
+    &:visited {
+      color: white;
+    }
+    &:hover {
+      color: #7872fa;
+    }
+  }
+  ul {
+    padding-left: 0px;
+    li {
+      display: inline;
+      padding-left: 4vw;
+      font-family:$font_family_1;
+      color: white;
+      font-size: 3vw;
+    }
+  }
+}
+
+iframe {
+  clear: both;
+  margin-left: 2.5%;
+  width: 93%;
+}
+
+#fullscreenvideo, #tabletscreenvideo {
+  display: none;
+}
+
+#phonescreenvideo {
+  display: block;
+}
+
+.TitlesForOther h2 {
+  font-size: 16px;
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#AboutMe {
+  padding-top: 20px;
+  font-size: 15px;
+  padding-bottom: 50px;
+  img {
+    padding-left: 5%;
+    width: 67%;
+    margin: auto;
+    display: block;
+  }
+  p {
+    text-indent: 50px;
+    width: 85%;
+    padding-left: 8%;
+    font-size: 3.6vw;
+  }
+}
+
+#BottomLinks {
+  clear: both;
+  p {
+    color: white;
+    font-family: $font_family_1;
+    font-size: 18px;
+    text-align: center;
+  }
+  a {
+    &:link {
+      color: #ca6f6f;
+      text-decoration: none;
+    }
+    &:visited, &:hover {
+      color: #ca6f6f;
+    }
+  }
+}
+
+#Buttons {
+  padding-bottom: 50px;
+  margin: auto;
+  width: 48%;
+  img {
+    width: 19%;
+  }
+}
+
+.ButtonPadding {
+  padding-left: 8px;
+}
+
+.Effect1 {
+  width: 85%;
+  margin-left: 7%;
+}
+
+.Effect {
+  padding-bottom: 50px;
+  width: 85%;
+  padding-left: 7%;
+}
+
+.Effect1 img, .Effect img {
+  width: 100%;
+}
+
+.Effect2 {
+  width: 85%;
+  padding-left: 7%;
+  img {
+    width: 100%;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+.Effect3 {
+  width: 280px;
+  margin-left: 11.5%;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.Effect4, .Effect5 {
+  width: 280px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.Effect6 {
+  width: 280px;
+  float: left;
+  margin-left: 36.5%;
+  padding-bottom: 50px;
+}
+
+.PastReels iframe {
+  margin-left: 4%;
+  width: 43%;
+  height: auto;
+}
+
+#Resume {
+  color: white;
+  a {
+    &:link, &:visited {
+      color: white;
+    }
+    &:link {
+      text-decoration: none;
+    }
+    &:hover {
+      color: #497ae9;
+    }
+  }
+  margin-top: 7%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0px 20px 20px 20px;
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  h2 {
+    font-size: 5vw;
+    margin: 0px 0px 0px 0px;
+    padding-top: 0px;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  h4, h5, p, ul {
+    font-family: Arial, sans-serif;
+  }
+  h4 {
+    font-size: 2.9vw;
+  }
+  h5 {
+    font-size: 2.8vw;
+  }
+  p {
+    padding-top: 5px;
+  }
+  li {
+    padding-top: 2px;
+    padding-left: 30px;
+    font-size: 2.8vw;
+  }
+}
+
+.indent {
+  padding-left: 10px;
+}
+
+#LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz {
+  font-family: $font_family_1;
+  color: $color_1;
+  font-size: 4vw;
+}
+
+#LowPoly {
+  margin-left: 8%;
+  p {
+    width: 93%;
+    padding-bottom: 50px;
+  }
+}
+
+#Asylum {
+  margin-left: 3%;
+  img {
+    width: 97%;
+  }
+  p {
+    width: 93%;
+    padding-bottom: 20px;
+  }
+}
+
+#NHLLogos {
+  margin-left: 3%;
+  img {
+    width: 97%;
+  }
+  p {
+    width: 98%;
+    padding-bottom: 50px;
+  }
+}
+
+#Code {
+  margin-left: 3%;
+  img {
+    width: 97%;
+    height: auto;
+  }
+  p {
+    width: 94%;
+    padding-bottom: 20px;
+  }
+}
+
+#WorkBench {
+  p {
+    width: 85%;
+    padding-bottom: 20px;
+    margin: auto;
+    display: block;
+  }
+  img {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-bottom: 4%;
+  }
+}
+
+#Poster {
+  margin-top: 5%;
+  img {
+    margin: auto;
+    width: 90%;
+    display: block;
+    padding-bottom: 5%;
+  }
+  p {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+}
+
+#Birds {
+  margin-top: 2%;
+  float: left;
+  img {
+    margin-left: 4.5%;
+    width: 91%;
+  }
+  p {
+    clear: both;
+    width: 91%;
+    padding-bottom: 50px;
+    margin-left: 5%;
+  }
+}
+
+#Homer {
+  img {
+    margin: auto;
+    display: block;
+    width: 95%;
+  }
+  p {
+    width: 88%;
+    padding-bottom: 20px;
+    margin-left: 6%;
+  }
+}
+
+#TwoWorlds {
+  iframe {
+    height: auto;
+    width: 91%;
+    margin-left: 4%;
+  }
+  img {
+    margin: auto;
+    display: block;
+  }
+  p {
+    width: 95%;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+}
+
+#Alien {
+  img {
+    width: 80%;
+    padding-left: 10%;
+  }
+  p {
+    width: 92%;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+}
+
+#Gun {
+  margin-left: 2.5%;
+  width: 95%;
+}
+
+#Car {
+  margin-left: 8%;
+  p, img {
+    width: 90%;
+  }
+}
+
+#SnowmanPadding img, #SnowmanPadding2 img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+#Gavin, #Buzz {
+  margin-left: 11%;
+}
+
+#BuzzPictures img {
+  margin: auto;
+  width: 89%;
+}
+
+#BuzzPictures2 img {
+  margin: auto;
+  width: 98%;
+}
+
+#GavinPictures img {
+  margin: auto;
+  width: 96.5%;
+}
+
+#GavinPictures2 img {
+  width: 107%;
+}
+
+#Gavin, #Buzz p {
+  width: 82%;
+  padding-bottom: 20px;
+}
+
+#Snowman p {
+  width: 82%;
+  padding-bottom: 20px;
+  margin-left: 12vw;
+}

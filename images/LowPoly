@@ -1,0 +1,52 @@
+<!doctype html>
+<!--This document was styled by Matthew Rasey -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="css/PortfolioSite.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+	<title>Matthew Rasey - 3D Modeler</title>
+</head>
+
+<body>
+
+	<div id="bodyContents">
+
+		<header>
+			<!--This is the set up for the navigation bar and logo that will link back to the home page-->
+			<a href="http://www.web.digitalmediauconn.org/intro16/mtr13001/website/projects/Final/PortfolioSiteHomePage.html"><img src="images/MatthewRaseyLogo.png" alt="Return to Home Page"></a>
+		</header>
+
+
+		<nav>
+			<ul  style="list-style: none;">		
+			    <li><a href="http://www.web.digitalmediauconn.org/intro16/mtr13001/website/projects/Final/PortfolioSiteMyWorkPage.html">My Work</a></li>
+			    <li><a href="http://www.web.digitalmediauconn.org/intro16/mtr13001/website/projects/Final/PortfolioSiteMyResumePage.html">My Résumé</a></li>
+			</ul>
+		</nav>
+		
+		<div id="LowPoly">
+		<img src="images/LowPolyLandscape.jpg" alt="My Low Poly Model">
+		<p>I made this low-poly landscape because I wanted to experiment with a retro pixelated project.  I worked with the Phong tag in Cinema 4D to remove even shading, and added some post effects in Photoshop.  Those include working with vibrance, curves, and vignetting.</p>
+		</div>
+		
+		<div id="BottomLinks">
+			<p>Enjoying My Page? Download my <a href="MyResume.pdf" download>résumé</a></p>
+			<p class="NoPadding">© Matthew Rasey 2016</p>
+
+			<div id="Buttons">
+				<a class="ButtonPadding" href="https://www.linkedin.com/in/matthew-rasey-503b49121"><img src="images/LinkedInButton.png" alt="My LinkedIn Account"></a>
+				<a class="ButtonPadding" href="mailto:matthew.rasey@gmail.com"><img src="images/GmailButton.png" alt="Email Me"></a>
+				<a class="ButtonPadding" href="https://vimeo.com/user35937952"><img src="images/VimeoButton.png" alt="My Vimeo Account"></a>
+				<a class="ButtonPadding" href="https://www.youtube.com/channel/UC2dvTuOCVBqQCu7XrAhmDDw"><img src="images/YouTubeButton.png" alt="My YouTube Channel"></a>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

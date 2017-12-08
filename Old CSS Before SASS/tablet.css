@@ -1,0 +1,460 @@
+body{
+	margin: 0;
+	background-image:url("../images/BG.png");
+	width:100%;
+}
+
+#bodyContents{
+	width:72%;
+	margin:0 auto;
+	overflow-y: hidden;
+}
+
+#bodyContentsMyWork{
+	width:72%;
+	margin:0 auto;
+	overflow-y: hidden;
+}
+
+/* Getting all the color and font-family out of the way */
+#bodyContentsMyWork h1, .TitlesForOther h2, #AboutMe, #Resume h1, #Resume h2, #Resume h3{
+	color:#a2b8eb;
+	font-family: 'Oxygen', sans-serif;
+}
+/* Getting all the color and font-family out of the way */
+
+#bodyContentsMyWork h1{
+	font-size:36px;
+	padding-top:30px;
+	text-align:center;
+}
+
+#Logo{
+	position:relative;
+	display:inline-block;
+	padding-top:20px;
+	padding-left:5%;
+	width:100px;
+	margin-bottom:50px;
+	float:left;
+}
+
+nav{
+	display:inline-block;
+	padding-top:50px;
+	padding-left:11%;
+}
+
+/* Link Colors */
+nav a:link {
+    color:white;
+    text-decoration:none;
+}
+
+/* visited link */
+nav a:visited {
+    color:white;
+}
+
+/* mouse over link */
+nav a:hover {
+    color:#7872fa;
+}
+
+nav ul li{
+	display:inline;
+	padding-left:36px;
+	font-family:'Raleway', sans-serif;
+	color:white;
+	font-size:24px;
+}
+
+/* Home Page CSS Starts Here */
+
+iframe{
+	clear:both;
+	margin-left:2.5%;
+}
+
+#fullscreenvideo{
+	display:none;
+}
+
+#tabletscreenvideo{
+	display:block;
+}
+
+#phonescreenvideo{
+	display:none;
+}
+
+.TitlesForOther h2{
+	font-size:16px;
+	padding-top:30px;
+	text-align:center;
+}
+
+.PastReels iframe{
+	display:block;
+	margin:auto;
+	margin-top:3vw;
+}
+
+#AboutMe{
+	padding-top:20px;
+	font-size:16px;
+	padding-bottom:50px;
+}
+
+#AboutMe img{
+	float:left;
+	padding-top:20px;
+	padding-left:5%;
+	width:36%;
+}
+
+#AboutMe p{
+	text-indent:50px;
+	width:50%;
+	display:inline-block;
+	padding-left:3%;
+	font-size:1.8vw;
+}
+
+#BottomLinks{
+	clear:both;
+	padding-top:3%;
+}
+
+#BottomLinks p{
+	color:white;
+	font-family: 'Oxygen', sans-serif;
+	font-size:18px;
+	text-align:center;
+}
+
+#BottomLinks a:link {
+    color:#ca6f6f;
+    text-decoration:none;
+}
+
+/* visited link */
+#BottomLinks a:visited {
+    color:#ca6f6f;
+}
+
+/* mouse over link */
+#BottomLinks a:hover {
+    color:#ca6f6f;
+}
+
+#Buttons{
+	margin-bottom:50px;
+	margin:auto;
+	width:40%;
+}
+
+#Buttons img{
+	width:19%;
+}
+
+.ButtonPadding{
+	padding-left:8px;
+}
+
+/* My Work Page CSS Starts Here */
+
+.Effect img{
+	width:100%;
+}
+
+.Effect1, .Effect, .Effect2{
+	width:446px;
+	margin:auto;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.Effect3, .Effect4, .Effect5, .Effect6{
+	width:280px;
+	margin:auto;
+}
+
+.Effect4{
+	margin-top:24vw;
+}
+
+.Effect5{
+	margin-top:48vw;
+	margin-bottom:72vw;
+}
+
+.Effect6{
+	margin-top:20vw;
+}
+
+/* My Resume Page CSS Starts Here */
+
+#Resume, #Resume a:link, #Resume a:visited{
+	color:white;
+}
+
+#Resume{
+	margin-top:50px;
+	background-color:rgba(0,0,0,0.3);
+	padding:0px 20px 20px 20px;
+}
+
+#Resume h1{
+	font-size:36px;
+	padding-top:30px;
+	padding-left:27vw;
+}
+
+#Resume a:link {
+    text-decoration:none;
+}
+
+/* mouse over link */
+#Resume a:hover {
+    color:#497ae9;
+}
+
+#Resume h4, #Resume h5, #Resume p, #Resume ul{
+	font-family: Arial, sans-serif;
+}
+
+#Resume ul{
+	list-style-type: none;
+	padding-left:0px;
+}
+
+
+#Resume h2{
+	font-size:36px;
+	margin:0px 0px 0px 0px;
+}
+
+#Resume h3{
+	font-size:22px;
+}
+
+#Resume h4{
+	font-size:16px;
+}
+
+#Resume h5{
+	font-size:12px;
+}
+
+#Resume p{
+	padding-top:5px;
+}
+
+#Resume li{
+	padding-top:2px;
+	padding-left: 30px;
+}
+
+.indent{
+	padding-left:10px;
+}
+
+/* Extra CSS for hyperlinked pages */
+
+#LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{
+	font-family: 'Oxygen', sans-serif;
+	color:#a2b8eb;
+	font-size:2vw;
+}
+
+#LowPoly{
+	margin-left:8%;
+}
+
+#LowPoly p{
+	width:93%;
+	padding-bottom:20px;
+}
+
+#Code, #Asylum{
+	margin-left:3%;
+}
+
+#Asylum p{
+	width:93%;
+	padding-bottom:50px;
+	font-size:24px;
+}
+
+#Asylum img{
+	width:97%;
+}
+
+#NHLLogos img{
+	width:100%;
+}
+
+#NHLLogos p{
+	padding-bottom:50px;
+	font-size:2vw;
+}
+
+#Code p{
+	width:96%;
+	font-size:2vw;
+}
+
+#Code img{
+	width:97%;
+	height:auto;
+}
+
+#WorkBench img{
+	width:100%;
+	margin:auto;
+	display:block;
+}
+
+#WorkBench p{
+	width:100%;
+	padding-bottom:20px;
+}
+
+#Poster{
+	margin-top:5%;
+}
+
+#Poster img{
+	margin:auto;
+	width:90%;
+	display:block;
+	padding-bottom:5%;
+}
+
+#Poster p{
+	font-size:2vw;
+	margin:auto;
+	width:90%;
+	padding-bottom:20px;
+}
+
+#Birds{
+	margin-top:2%;
+	float:left;
+}
+
+#Birds img{
+	margin:auto;
+	display:block;
+}
+
+#Birds p{
+	clear:both;
+	padding-top:1%;
+}
+
+#Homer iframe{
+	width:95%;
+}
+
+#Homer img{
+	margin:auto;
+	display:block;
+}
+
+#Homer p{
+	width:99%;
+}
+
+#TwoWorlds{
+	margin-left:6%;
+}
+
+#TwoWorlds iframe{
+	height:auto;
+	margin-left:0%;
+	width:91%;
+}
+
+#TwoWorlds p{
+	width:93%;
+	padding-bottom:20px;
+}
+
+#Alien{
+	margin-left:6%;
+}
+
+#AlienFloatLeft img{
+	float:left;
+}
+
+#AlienFloatRight img{
+	float:right;
+}
+
+#Alien, #Snowman p{
+	width:96%;
+	padding-bottom:30px;
+}
+
+#Alien2 img{
+	width:29.55%;
+}
+
+#SnowmanPadding2{
+	margin-left:5%;
+}
+
+#SnowmanPadding2 img{
+	width:29%;
+}
+
+.TopPadding{
+	width:90%;
+}
+
+#Gun{
+	margin-left:2.5%;
+	width:97%;
+}
+
+#Car p{
+	font-size:2vw;
+}
+
+#Car img{
+	width:100%;
+}
+
+#Gavin, #Buzz{
+	margin-left:11%;
+}
+
+#BuzzPictures, #GavinPictures{
+	width:93%;
+}
+
+#BuzzPictures2 img{
+	width:100%;
+}
+
+#GavinPictures{
+	display:inline-block;
+}
+
+#GavinPictures img{
+	width:97%;
+}
+
+#GavinPictures2 img{
+	width:100%;
+}
+
+#Gavin, #Buzz p{
+	width:87%;
+	padding-bottom:50px;
+}

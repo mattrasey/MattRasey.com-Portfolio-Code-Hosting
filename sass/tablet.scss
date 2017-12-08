@@ -1,0 +1,336 @@
+@import "partials/variables"
+
+@import "partials/ZoomEffect"
+
+body
+  margin: 0
+  background-image: url("../images/BG.png")
+  width: 100%
+
+#bodyContents
+  width: 72%
+  margin: 0 auto
+  overflow-y: hidden
+
+#bodyContentsMyWork
+  width: 72%
+  margin: 0 auto
+  overflow-y: hidden
+  h1
+    color:$color_1:
+     font-family: $font_family_1;
+
+.TitlesForOther h2, #AboutMe
+  color:$color_1:
+   font-family: $font_family_1;
+
+#Resume
+  h1, h2, h3
+    color:$color_1:
+    font-family: $font_family_1;
+
+#bodyContentsMyWork h1
+  font-size: 36px
+  padding-top: 30px
+  text-align: center
+
+#Logo
+  position: relative
+  display: inline-block
+  padding-top: 20px
+  padding-left: 5%
+  width: 100px
+  margin-bottom: 50px
+  float: left
+
+nav
+  display: inline-block
+  padding-top: 50px
+  padding-left: 11%
+  a
+    &:link
+      color: white
+      text-decoration: none
+    &:visited
+      color: white
+    &:hover
+      color: #7872fa
+  ul li
+    display: inline
+    padding-left: 36px
+    font-family:$font_family_1;
+    color: white
+    font-size: 24px
+
+iframe
+  clear: both
+  margin-left: 2.5%
+
+#fullscreenvideo
+  display: none
+
+#tabletscreenvideo
+  display: block
+
+#phonescreenvideo
+  display: none
+
+.TitlesForOther h2
+  font-size: 16px
+  padding-top: 30px
+  text-align: center
+
+.PastReels iframe
+  display: block
+  margin: auto
+  margin-top: 3vw
+
+#AboutMe
+  padding-top: 20px
+  font-size: 16px
+  padding-bottom: 50px
+  img
+    float: left
+    padding-top: 20px
+    padding-left: 5%
+    width: 36%
+  p
+    text-indent: 50px
+    width: 50%
+    display: inline-block
+    padding-left: 3%
+    font-size: 1.8vw
+
+#BottomLinks
+  clear: both
+  padding-top: 3%
+  p
+    color: white
+    font-family: $font_family_1;
+    font-size: 18px
+    text-align: center
+  a
+    &:link
+      color: #ca6f6f
+      text-decoration: none
+    &:visited, &:hover
+      color: #ca6f6f
+
+#Buttons
+  margin-bottom: 50px
+  margin: auto
+  width: 40%
+  img
+    width: 19%
+
+.ButtonPadding
+  padding-left: 8px
+
+.Effect img
+  width: 100%
+
+.Effect1, .Effect, .Effect2
+  width: 446px
+  margin: auto
+
+.clearfix
+  clear: both
+
+.Effect3, .Effect4, .Effect5, .Effect6
+  width: 280px
+  margin: auto
+
+.Effect4
+  margin-top: 24vw
+
+.Effect5
+  margin-top: 48vw
+  margin-bottom: 72vw
+
+.Effect6
+  margin-top: 20vw
+
+#Resume
+  color: white
+  a
+    &:link, &:visited
+      color: white
+  margin-top: 50px
+  background-color: rgba(0, 0, 0, 0.3)
+  padding: 0px 20px 20px 20px
+  h1
+    font-size: 36px
+    padding-top: 30px
+    padding-left: 27vw
+  a
+    &:link
+      text-decoration: none
+    &:hover
+      color: #497ae9
+  h4, h5, p
+    font-family: Arial, sans-serif
+  ul
+    font-family: Arial, sans-serif
+    list-style-type: none
+    padding-left: 0px
+  h2
+    font-size: 36px
+    margin: 0px 0px 0px 0px
+  h3
+    font-size: 22px
+  h4
+    font-size: 16px
+  h5
+    font-size: 12px
+  p
+    padding-top: 5px
+  li
+    padding-top: 2px
+    padding-left: 30px
+
+.indent
+  padding-left: 10px
+
+#LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz
+  font-family: $font_family_1;
+  color:$color_1:
+  font-size: 2vw
+
+#LowPoly
+  margin-left: 8%
+  p
+    width: 93%
+    padding-bottom: 20px
+
+#Code
+  margin-left: 3%
+
+#Asylum
+  margin-left: 3%
+  p
+    width: 93%
+    padding-bottom: 50px
+    font-size: 24px
+  img
+    width: 97%
+
+#NHLLogos
+  img
+    width: 100%
+  p
+    padding-bottom: 50px
+    font-size: 2vw
+
+#Code
+  p
+    width: 96%
+    font-size: 2vw
+  img
+    width: 97%
+    height: auto
+
+#WorkBench
+  img
+    width: 100%
+    margin: auto
+    display: block
+  p
+    width: 100%
+    padding-bottom: 20px
+
+#Poster
+  margin-top: 5%
+  img
+    margin: auto
+    width: 90%
+    display: block
+    padding-bottom: 5%
+  p
+    font-size: 2vw
+    margin: auto
+    width: 90%
+    padding-bottom: 20px
+
+#Birds
+  margin-top: 2%
+  float: left
+  img
+    margin: auto
+    display: block
+  p
+    clear: both
+    padding-top: 1%
+
+#Homer
+  iframe
+    width: 95%
+  img
+    margin: auto
+    display: block
+  p
+    width: 99%
+
+#TwoWorlds
+  margin-left: 6%
+  iframe
+    height: auto
+    margin-left: 0%
+    width: 91%
+  p
+    width: 93%
+    padding-bottom: 20px
+
+#Alien
+  margin-left: 6%
+
+#AlienFloatLeft img
+  float: left
+
+#AlienFloatRight img
+  float: right
+
+#Alien, #Snowman p
+  width: 96%
+  padding-bottom: 30px
+
+#Alien2 img
+  width: 29.55%
+
+#SnowmanPadding2
+  margin-left: 5%
+  img
+    width: 29%
+
+.TopPadding
+  width: 90%
+
+#Gun
+  margin-left: 2.5%
+  width: 97%
+
+#Car
+  p
+    font-size: 2vw
+  img
+    width: 100%
+
+#Gavin, #Buzz
+  margin-left: 11%
+
+#BuzzPictures, #GavinPictures
+  width: 93%
+
+#BuzzPictures2 img
+  width: 100%
+
+#GavinPictures
+  display: inline-block
+  img
+    width: 97%
+
+#GavinPictures2 img
+  width: 100%
+
+#Gavin, #Buzz p
+  width: 87%
+  padding-bottom: 50px
