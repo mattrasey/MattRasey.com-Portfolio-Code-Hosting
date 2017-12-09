@@ -1,4 +1,4 @@
-@import "partials/ZoomEffect.css";
+@import "partials/ZoomEffectMobile.css";
 @import "partials/variables.css";
 body{margin:0;background-image:url("../images/BG.png");width:100%;}
 #bodyContents{width:100%;margin:0 auto;overflow-y:hidden;}
@@ -17,6 +17,8 @@ nav ul li{display:inline;padding-left:4vw;font-family:'Raleway', sans-serif;colo
 iframe{clear:both;margin-left:2.5%;width:93%;}
 #fullscreenvideo, #tabletscreenvideo{display:none;}
 #phonescreenvideo{display:block;}
+#HyperlinkedImageWithEffects{display:none;}
+#HyperlinkedImageWithOutEffects{}
 .TitlesForOther h2{font-size:16px;padding-top:27px;text-align:center;}
 #phonescreenvideo iframe{border:none;}
 #AboutMe{padding-top:20px;font-size:15px;}
@@ -38,7 +40,7 @@ iframe{clear:both;margin-left:2.5%;width:93%;}
 .Effect3{width:280px;margin-left:11.5%;margin:auto;}
 .Effect4, .Effect5{width:280px;margin:auto;}
 .Effect6{width:280px;float:left;margin-left:36.5%;}
-.PastReels iframe{margin-left:4%;width:43%;height:auto;border:2px solid gray;}
+.PastReels iframe{margin-left:4%;width:43%;border:2px solid gray;}
 #Resume{color:white;margin-top:7%;background-color:rgba(0, 0, 0, 0.3);padding:0px 20px 20px 20px;}
 #Resume a:link, #Resume a:visited{color:white;}
 #Resume a:link{text-decoration:none;}

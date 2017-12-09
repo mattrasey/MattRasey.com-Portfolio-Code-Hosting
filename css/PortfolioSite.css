@@ -16,6 +16,7 @@ nav ul li{display:inline;padding-left:36px;font-family:'Raleway', sans-serif;col
 iframe{clear:both;margin-left:2.5%;}
 #fullscreenvideo{display:block;}
 #tabletscreenvideo, #phonescreenvideo{display:none;}
+#HyperlinkedImageWithOutEffects{display:none;}
 h1{font-size:36px;padding-top:30px;margin-left:43%;}
 .TitlesForOther h2{font-size:16px;padding-top:0px;margin-top:0px;margin-left:46%;}
 #AboutMe{padding-top:20px;font-size:24px;padding-bottom:50px;}
