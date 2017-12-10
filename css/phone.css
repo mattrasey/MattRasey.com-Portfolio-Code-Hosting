@@ -31,15 +31,21 @@ iframe{clear:both;margin-left:2.5%;width:93%;}
 #Buttons{padding-bottom:30px;margin:auto;width:48%;}
 #Buttons img{width:19%;}
 .ButtonPadding{padding-left:8px;}
+#ResumeWidth{width:97%;margin-left:1.5%;}
 .Effect1{width:85%;margin-left:7%;}
+.Effect3 img{width:48%;}
+.Effect4 img{width:48%;}
+.Effect5 img{width:48%;}
 .Effect{width:85%;padding-left:7%;}
 .Effect1 img, .Effect img{width:100%;}
 .Effect2{width:85%;padding-left:7%;}
 .Effect2 img{width:100%;}
 .clearfix{clear:both;}
-.Effect3{width:280px;margin-left:11.5%;margin:auto;}
-.Effect4, .Effect5{width:280px;margin:auto;}
-.Effect6{width:280px;float:left;margin-left:36.5%;}
+.Effect3{margin-left:11.5%;margin:auto;}
+.Effect4, .Effect5{margin:auto;}
+.Effect6{float:left;margin-left:36.5%;}
+.FloatLeft img{float:left;margin-left:1.5%;margin-bottom:1%;}
+.FloatRight img{float:right; margin-right:1.5%;margin-bottom:1%;}
 .PastReels iframe{margin-left:4%;width:43%;border:2px solid gray;}
 #Resume{color:white;margin-top:7%;background-color:rgba(0, 0, 0, 0.3);padding:0px 20px 20px 20px;}
 #Resume a:link, #Resume a:visited{color:white;}
