@@ -26,7 +26,7 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #BottomLinks p{color:white;font-family:'Oxygen', sans-serif;font-size:18px;text-align:center;}
 #BottomLinks a:link{color:#ca6f6f;text-decoration:none;}
 #BottomLinks a:visited, #BottomLinks a:hover{color:#ca6f6f;}
-#Buttons{margin-left:36.5%;margin-bottom:50px;}
+#Buttons{width:100%;text-align:center;}
 .ButtonPadding{padding-left:8px;}
 .Effect1, .Effect{width:440px;margin-left:35px;}
 .Effect2{width:440px;float:left;margin-left:50px;padding-bottom:46px;}
