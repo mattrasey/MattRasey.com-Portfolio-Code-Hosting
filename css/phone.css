@@ -70,6 +70,7 @@ iframe{clear:both;width:100%;text-align:center;}
 #NHLLogos{margin-left:3%;}
 #NHLLogos img{width:97%;}
 #NHLLogos p{width:98%;}
+#NHLLogos iframe{width:95%;margin-left:0%;border:2px solid gray;}
 #Code{margin-left:3%;}
 #Code img{width:97%;height:auto;}
 #Code p{width:94%;padding-bottom:20px;}
