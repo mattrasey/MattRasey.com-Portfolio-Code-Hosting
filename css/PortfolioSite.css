@@ -76,7 +76,7 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #TwoWorlds p{width:93%;padding-bottom:50px;}
 #TwoWorlds iframe{border:2px solid gray;}
 #AlienFullRenders img {height=:100%;width:100%;}
-#AlienFloatLeft img{float:left;height=:49.75%;width:49.75%;}
+#AlienFloatLeft img{float:left;height=:49.75%;width:49.75%;padding-bottom:2%;}
 #AlienFloatRight img{float:right;height=:49.75%;width:49.75%;}
 #SnowmanPadding{margin-left:16%;}
 #SnowmanPadding2{margin-left:5%;}
@@ -90,7 +90,6 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #Car{margin-left:7%;width:86%;}
 #Car img{width:100%;}
 #Sketch img{width:100%;}
-#SketchRenders{width:100.5%;height:100.5%;}
 .ShipFullImages img{width:100%;}
 .ShipFloatLeft img{float:left;width:49.5%}
 .ShipForPhone img{padding-left:1%;width:49.5%}
