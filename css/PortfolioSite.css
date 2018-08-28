@@ -20,7 +20,7 @@ iframe{clear:both;margin-left:2.5%;}
 h1{font-size:36px;padding-top:30px;margin-left:43%;}
 .TitlesForOther h2{font-size:16px;padding-top:0px;margin-top:0px;margin-left:46%;}
 #AboutMe{padding-top:20px;font-size:24px;padding-bottom:50px;}
-#AboutMe img{float:left;padding-top:20px;padding-left:5%;width:36%;padding-right:2%;}
+#AboutMe img{float:left;padding-top:20px;padding-left:5%;width:36%;}
 #AboutMe p{text-indent:50px;width:50%;display:inline-block;}
 #BottomLinks{clear:both;}
 #BottomLinks p{color:white;font-family:'Oxygen', sans-serif;font-size:18px;text-align:center;}
@@ -76,7 +76,7 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #TwoWorlds p{width:93%;padding-bottom:50px;}
 #TwoWorlds iframe{border:2px solid gray;}
 #AlienFullRenders img {height=:100%;width:100%;}
-#AlienFloatLeft img{float:left;height=:49.75%;width:49.75%;}
+#AlienFloatLeft img{float:left;height=:49.75%;width:49.75%;padding-bottom:2%;}
 #AlienFloatRight img{float:right;height=:49.75%;width:49.75%;}
 #SnowmanPadding{margin-left:16%;}
 #SnowmanPadding2{margin-left:5%;}
@@ -87,9 +87,9 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #FrogImages{height:98%;}
 #Gun{margin-left:2.5%;width:97%;}
 #Gun img{width:100%;}
+#Car{margin-left:7%;width:86%;}
+#Car img{width:100%;}
 #Sketch img{width:100%;}
-#FirstCarImage img{width:100%;height:100%;}
-#SketchRenders{width:100.5%;height:100.5%;}
 .ShipFullImages img{width:100%;}
 .ShipFloatLeft img{float:left;width:49.5%}
 .ShipForPhone img{padding-left:1%;width:49.5%}
