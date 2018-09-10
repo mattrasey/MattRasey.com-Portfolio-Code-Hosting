@@ -50,7 +50,7 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #Resume p{padding-top:5px;}
 #Resume li{padding-top:2px;padding-left:30px;}
 .indent{padding-left:10px;}
-#Sketch, #LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{font-family:'Oxygen', sans-serif;color:#a2b8eb;font-size:24px;}
+#Sketch, #LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #DragonWolf, #RiseofPyramids, #NHLGraphics, #BasketballBroadcast, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{font-family:'Oxygen', sans-serif;color:#a2b8eb;font-size:24px;}
 #LowPoly p, #Asylum p{padding-bottom:50px;}
 #LowPoly{margin-left:8%;}
 #LowPoly p{width:93%;}
@@ -83,6 +83,10 @@ h1{font-size:36px;padding-top:30px;margin-left:43%;}
 #Alien, #Snowman, #Buzz p{padding-bottom:50px;clear:both;}
 .TopPadding{margin-left:11.5%;}
 #BuzzPictures{padding-left:11%;}
+#DragonWolf img{width:100%;}
+#NHLGraphics img{width:48%;float:left;margin-left:1%;margin-bottom:1%;}
+#RiseofPyramidsSmall img{width:48%;float:left;margin-left:1%;margin-bottom:1%;}
+#RiseofPyramidsBig img{width:100%;}
 #BuzzPictures img{float:left;}
 #FrogImages{height:98%;}
 #Gun{margin-left:2.5%;width:97%;}
