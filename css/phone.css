@@ -84,6 +84,10 @@ iframe{clear:both;width:100%;text-align:center;}
 #Birds p{clear:both;width:91%;margin-left:5%;}
 #DragonWolf img{width:100%;}
 #NHLGraphics img{width:48%;float:left;margin-left:1%;margin-bottom:1%;}
+#NHLGraphicsPoster1Left img{width:100%;margin-left:1%;}
+#NHLGraphicsPoster1Left {width:55.5%;float:left;}
+#NHLGraphicsPoster1Right {width:43%;float:right;}
+#NHLGraphicsPoster1Right img{width:100%;margin-left:1%;}
 #RiseofPyramidsSmall img{width:48%;float:left;margin-left:1%;margin-bottom:1%;}
 #RiseofPyramidsBig img{width:100%;}
 #Homer img{margin:auto;display:block;width:95%;}
