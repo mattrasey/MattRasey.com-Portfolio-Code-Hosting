@@ -1,6 +1,7 @@
 @import "partials/ZoomEffect.css";
 @import "partials/variables.css";
 body{margin:0;background-image:url("../images/BG.png");}
+#GraphicDesignButton {position:absolute;left:2%;top:10%;width:17%;}
 #bodyContents{width:1000px;margin:0 auto;overflow-y:hidden;}
 #bodyContentsMyWork{width:1000px;margin:0 auto;overflow-y:hidden;}
 #bodyContentsMyWork h1{color:#a2b8eb;font-family:'Oxygen', sans-serif;}
