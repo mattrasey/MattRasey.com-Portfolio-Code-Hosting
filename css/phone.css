@@ -1,8 +1,8 @@
 @import "partials/ZoomEffectMobile.css";
 @import "partials/variables.css";
 body{margin:0;background-image:url("../images/BG.png");width:100%;}
-#GraphicDesignButton {position:absolute;left:2%;top:10%;width:13%;}
-#GeneralReelButton {position:absolute;left:82%;top:10%;width:13%;}
+#GraphicDesignButton {display:none;position:absolute;left:2%;}
+#GeneralReelButton {display:none;position:absolute;left:80%;}
 #bodyContents{width:100%;margin:0 auto;overflow-y:hidden;}
 #bodyContentsMyWork h1, h1, .TitlesForOther h2, #AboutMe{color:#a2b8eb;font-family:'Oxygen', sans-serif;}
 #Resume h1, #Resume h2, #Resume h3{color:#a2b8eb;font-family:'Oxygen', sans-serif;}
