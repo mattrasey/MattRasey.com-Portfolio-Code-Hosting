@@ -1,7 +1,9 @@
 @import "partials/ZoomEffectMobile.css";
 @import "partials/variables.css";
 body{margin:0;background-image:url("../images/BG.png");width:100%;}
-#GraphicDesignButton {display:none;position:absolute;left:2%;}
+#GraphicDesignButton {position:absolute;left:2%;}
+#MotionGraphicsButton {position:absolute;left:11%;}
+#ModelingButton {position:absolute;left:20%;}
 #GeneralReelButton {display:none;position:absolute;left:80%;}
 #bodyContents{width:100%;margin:0 auto;overflow-y:hidden;}
 #bodyContentsMyWork h1, h1, .TitlesForOther h2, #AboutMe{color:#a2b8eb;font-family:'Oxygen', sans-serif;}
@@ -65,7 +67,10 @@ iframe{clear:both;width:100%;text-align:center;}
 #Breakdown ul{text-indent:50px;width:50%;display:inline-block;}
 #Breakdown h2, #Breakdown p{color:#a2b8eb;font-family:'Oxygen', sans-serif;}
 .indent{padding-left:10px;}
-#Sketch, #LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #DragonWolf, #RiseofPyramids, #NHLGraphics, #BasketballBroadcast, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{font-family:'Oxygen', sans-serif;color:#a2b8eb;font-size:4vw;}
+#Sketch, #LowPoly, #Asylum, #NHLLogos, #Jager, #Code, #WorkBench, #Poster, #Birds, #DragonWolf, #RiseofPyramids, #NHLGraphics, #BasketballBroadcast, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{font-family:'Oxygen', sans-serif;color:#a2b8eb;font-size:4vw;}
+#Jager video{margin-left:9%;width:80%;}
+#Jager img{margin-left:4%;margin-top:4%;width:43%;}
+#Jager p{width:93%;padding-bottom:50px;margin-left:4%;}
 #LowPoly{margin-left:8%;}
 #LowPoly p{width:93%;}
 #Asylum{margin-left:3%;}

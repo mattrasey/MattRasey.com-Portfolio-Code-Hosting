@@ -56,7 +56,7 @@ h1{font-size:36px;padding-top:30px;margin-left:37%;}
 #Breakdown ul{text-indent:50px;width:50%;display:inline-block;}
 #Breakdown h2, #Breakdown p{color:#a2b8eb;font-family:'Oxygen', sans-serif;}
 .indent{padding-left:10px;}
-#Sketch, #LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #DragonWolf, #RiseofPyramids, #NHLGraphics, #BasketballBroadcast, #Homer, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{font-family:'Oxygen', sans-serif;color:#a2b8eb;font-size:24px;}
+#Sketch, #LowPoly, #Asylum, #NHLLogos, #Code, #WorkBench, #Poster, #Birds, #DragonWolf, #RiseofPyramids, #NHLGraphics, #BasketballBroadcast, #Homer, #Jager, #TwoWorlds, #Alien, #Gun, #Car, #Gavin, #Snowman, #Buzz{font-family:'Oxygen', sans-serif;color:#a2b8eb;font-size:24px;}
 #LowPoly p, #Asylum p{padding-bottom:50px;}
 #LowPoly{margin-left:8%;}
 #LowPoly p{width:93%;}
@@ -75,8 +75,12 @@ h1{font-size:36px;padding-top:30px;margin-left:37%;}
 #Birds p{clear:both;width:91%;padding-bottom:50px;margin-left:5%;}
 #Homer {margin-left:6%;}
 #Homer iframe{border:2px solid gray;}
+#Homer video{margin-left:13%;}
 #Homer img{margin-left:10%;margin-top:5%;}
 #Homer p{width:93%;padding-bottom:50px;}
+#Jager video{margin-left:9%;}
+#Jager img{margin-left:4%;margin-top:4%;width:43%;}
+#Jager p{width:93%;padding-bottom:50px;}
 #TwoWorlds{margin-left:6%;}
 #TwoWorlds img{margin-left:1.25%;margin-top:1%;height:92%;width:92%;}
 #TwoWorlds p{width:93%;padding-bottom:50px;}
