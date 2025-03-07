@@ -484,5 +484,15 @@
 <!--map -->
 <!-- Custom js -->
 <script src="assets/js/main.js"></script>
+
+<script>
+  window.addEventListener("load", function() {
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+      img.setAttribute('loading', 'lazy');
+    });
+  });
+</script>
+
 </body>
 </html>
