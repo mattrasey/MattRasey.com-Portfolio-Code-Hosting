@@ -2514,11 +2514,6 @@ textarea.form-control {
   font-size:13px;
 }
 
-.contactme img{
-  width:35%;
-  height:auto;
-}
-
 .reels iframe{
   margin-bottom:50px;
 }
@@ -2536,6 +2531,11 @@ textarea.form-control {
 .ThreeImage {
   width:28%;
   margin-bottom:1%;
+}
+
+.TwoImage {
+  width:35%;
+  margin-bottom:.5%;
 }
 
 .FourImageLeft{
